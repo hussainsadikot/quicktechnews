@@ -1,6 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "./Context";
-
+import './App.css'
 const Pagination = () => {
     const { page, nbPages, getPrevPage, getNextPage } = useGlobalContext();
     return (

@@ -17,10 +17,12 @@ const Stories = () => {
                     return (
                         <div className="card" key={objectID}>
                             <h2>{title}</h2>
+                            <div className="auther-comment-count">
                             <p>
                                 By <span> {author}</span> | <span> {num_comments} </span>
                                 comments
                             </p>
+                            </div>
                             <div className="card-button">
                                 <a href={url} target="_blank">
                                     Read More
