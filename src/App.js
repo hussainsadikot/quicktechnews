@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <h1 style={{fontSize:"3rem", textAlign:"center",margin:"1rem"}}>Welcome to Tech News</h1>
+    <h1 className='app-heading'>Welcome to Tech News</h1>
     
       <Search/>
       <Pagination/>
